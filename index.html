@@ -154,7 +154,7 @@
 </div>
 
 <script>
-const SITE_PASSWORD = "epbomi2026";
+const SITE_PASSWORD = "koumassi2;
 
 function checkPassword(){
   const val = document.getElementById('passwordInput').value;
@@ -210,14 +210,14 @@ document.addEventListener('DOMContentLoaded', () => {
 // Numéros WhatsApp qui recevront le récap de présence.
 // Mets le 2e numéro entre les guillemets pour l'activer (sinon laisse "").
 // Format : indicatif pays + numéro, sans le "+" ni espaces (ex: Côte d'Ivoire "225...").
-const WHATSAPP_RECAP_NUMBERS = ["2250707950770", "2250707539552"];
+const WHATSAPP_RECAP_NUMBERS = ["2250757995853", "0707688060"];
 const DEFAULT_ROSTER = [];
 
 // Identifiant unique de l'église : change UNIQUEMENT cette valeur quand tu
 // dupliques ce fichier pour une nouvelle église, afin que ses données restent
 // séparées des autres (même projet Firebase, collection différente).
 // Exemple : "koumassi", "yopougon", "cocody"...
-const CHURCH_ID = "koumassi";
+const CHURCH_ID = "koumassi2";
 const CHURCH_COLLECTION = "church_" + CHURCH_ID;
 
 function todayKey(){const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
